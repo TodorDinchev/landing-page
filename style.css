@@ -1,0 +1,150 @@
+body{
+    font-family: roboto, sans-serif;
+    padding:0px 240px;
+}
+.header{
+    display:flex;
+    padding:16px 128px;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.header h1{
+    font-size:24px;
+    color: #F9FaF8;
+    font-weight: 800;
+    padding:0px;
+    margin:0px;
+}
+
+.header ul{
+    color: #e5e7eb;
+    list-style: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    gap:24px;
+    font-size: 18px;
+}
+
+.hero-text{
+    background-color: #1F2937;
+    display:flex;
+    flex:1;
+    padding:16px 128px;
+    
+}
+
+.hero-text h1{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-text p{
+    color:#e5E7eb;
+    font-size: 18px;
+}
+
+.hero-text button{
+    background-color: #3882F6;
+    border:none;
+    color:#F9FaF8;
+    padding:12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.image-placeholder{
+    background-color:#eee;
+    flex:50%;
+}
+.image-placeholder > h4{
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    vertical-align: center;
+}
+
+.info{
+    display:flex;
+    justify-content: center;
+    margin-top: 12px;
+    font-weight: 800;
+}
+.boxes{
+    display:flex;
+    justify-content: center;
+    gap:36px;
+}
+.image-boxes{
+    display:flex;
+    border:2px solid #3882F6;
+    border-radius: 8px;;
+    height:160px;
+    width:160px;
+    margin-top: 24px;  
+    margin-bottom: 150px;
+}
+.image-boxes > h4{
+    align-self: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 260px;
+    position:relative;
+}
+
+.quote-box{
+    background-color: #E5E7Eb;
+    display:flex;
+    padding:80px 128px;
+    text-align: left;
+    margin:0;
+    flex-direction: column;
+}
+.quote-box > .quote{
+    font-style: italic;
+}
+.quote-box > .thor{
+    font-weight: 900;
+}
+.call{
+    display:flex;
+    background-color: #3882F6;
+    margin-top: 24px;
+    text-align: start;
+    height:128px;
+    width: 1000px;
+    justify-content: space-around;
+    padding:16px;
+    color:#F9FaF8;
+    flex:1;
+    margin-top: 48px;
+}
+.callbutton{
+    background-color: #3882F6;
+    border:1px solid #F9FaF8;
+    color:#F9FaF8;
+    padding:12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor:pointer;
+    flex:1;
+    margin-top: 45px;
+}
+.footer{
+    background-color: #1F2937;
+    display:flex;
+    flex:1;
+    padding:16px 128px;
+    justify-content: center;
+    color:#e5e7eb;
+    margin-top: 48px;
+}
