@@ -105,6 +105,7 @@ body{
 
 .quote-box{
     background-color: #E5E7Eb;
+    color: #fff;
     display:flex;
     padding:80px 128px;
     text-align: left;
